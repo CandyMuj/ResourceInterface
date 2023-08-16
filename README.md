@@ -9,9 +9,11 @@
 
 # 防失联，建议关注公众号
 
-1、在微信**```添加朋友-公众号```**中搜索   **CandyMuj** 进行添加
+1、在微信```添加朋友-公众号```中搜索   **CandyMuj** 进行添加
 
 2、扫描下方二维码直接添加
+
+![CandyMuj](https://s1.ax1x.com/2023/08/16/pPlVF3j.png)
 
 <img src="https://s1.ax1x.com/2023/08/16/pPlVF3j.png" alt="CandyMuj" style="zoom: 50%;" />
 
