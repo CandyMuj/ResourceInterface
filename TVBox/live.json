@@ -1,0 +1,45 @@
+[
+  {
+    "name": "范明明",
+    "url": "https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u"
+  },
+  {
+    "name": "南风",
+    "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt&&&https://cdn.jsdelivr.net/gh/zhixc/CatVodTVSpider/pic/live.png"
+  },
+  {
+    "name": "南风(分线路)",
+    "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt&&&https://cdn.jsdelivr.net/gh/zhixc/CatVodTVSpider/pic/live.png",
+    "circuit": 1
+  },
+  {
+    "name": "听迪百事通",
+    "url": "https://ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u"
+  },
+  {
+    "name": "听迪百事通(分组)",
+    "url": "https://ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u&&&https://cdn.jsdelivr.net/gh/zhixc/CatVodTVSpider/pic/live.png",
+    "group": 1
+  },
+  {
+    "name": "听迪爱尚",
+    "url": "https://ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/aishang.m3u"
+  },
+  {
+    "name": "听迪爱尚(分组)",
+    "url": "https://ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/aishang.m3u&&&https://cdn.jsdelivr.net/gh/zhixc/CatVodTVSpider/pic/live.png",
+    "group": 1
+  },
+  {
+    "name": "虎牙一起看",
+    "url": "https://live.d1.mk/huyayqk.m3u"
+  },
+  {
+    "name": "斗鱼一起看",
+    "url": "https://live.d1.mk/douyuyqk.m3u"
+  },
+  {
+    "name": "YY轮播",
+    "url": "https://live.d1.mk/yylunbo.m3u"
+  }
+]
