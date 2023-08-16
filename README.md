@@ -13,7 +13,7 @@
 
 2、扫描下方二维码直接添加
 
-<img src="https://s1.ax1x.com/2023/08/16/pPlVF3j.png" alt="CandyMuj" style="zoom: 50%;" />
+<img src="https://img1.imgtp.com/2023/08/16/KGWoQwgV.png" alt="CandyMuj" style="zoom: 50%;" />
 
 # TVBox
 
