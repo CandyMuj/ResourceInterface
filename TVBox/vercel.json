@@ -2,6 +2,9 @@
   "version": 2,
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/(.*)", "status": 404, "dest": "https://www.lan2wan.top" }
+    { "src": "/(.*)", "status": 404, "dest": "/lan2wan" }
+  ],
+  "redirects": [
+    { "source": "/lan2wan", "destination": "https://www.lan2wan.top", "statusCode": 301 }
   ]
 }
