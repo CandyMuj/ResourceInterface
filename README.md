@@ -20,9 +20,9 @@
 # TVBox
 
 ## 配置地址
-配置地址： http://tv.lan2wan.top/candymuj.json
+配置地址： https://tv.lan2wan.top/candymuj.json
 
-配置地址1(无特殊资源)： http://tv.lan2wan.top/candymuj1.json
+配置地址1(无特殊资源)： https://tv.lan2wan.top/candymuj1.json
 
 ## 推荐软件下载
 

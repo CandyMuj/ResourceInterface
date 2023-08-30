@@ -1,14 +1,14 @@
 {
   "wallpaper":"https://picsum.photos/1280/720",
-  "spider": "http://tv.lan2wan.top/candymuj.jar",
+  "spider": "./candymuj.jar",
   "lives": [
-    {"group": "redirect","channels": [{"name": "redirect","urls": ["proxy://do=live&type=txt&ext=aHR0cDovL3R2LmxhbjJ3YW4udG9wL2xpdmUudHh0"]}]}
+    {"group": "redirect","channels": [{"name": "redirect","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly90di5sYW4yd2FuLnRvcC9saXZlLnR4dA=="]}]}
   ],
 
   "sites":[
     {"key":"csp_DoubanForTVBox","name":"💕防失联关注公众号[CandyMuj]","type":3,"api":"csp_DoubanForTVBox","searchable":0},
     {"key":"豆瓣(js)","name":"💥豆瓣(js)","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/drpy.js"},
-    
+
     {"key":"csp_CandyMuj_freeok","name":"💖FreeOK","type":3,"api":"csp_CandyMuj_freeok","searchable":1,"quickSearch":0,"filterable":1},
     {"key":"csp_CandyMuj_taoju","name":"💖淘剧影院","type":3,"api":"csp_CandyMuj_taoju","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_lm5","name":"💖星辰影院","type":3,"api":"csp_CandyMuj_lm5","searchable":1,"quickSearch":1,"filterable":0},
@@ -17,9 +17,10 @@
     {"key":"csp_CandyMuj_qiqiyy","name":"💖琪琪影院","type":3,"api":"csp_CandyMuj_qiqiyy","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_nkvod","name":"💖耐看点播","type":3,"api":"csp_CandyMuj_nkvod","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_yzzy","name":"💖优质资源","type":3,"api":"csp_CandyMuj_yzzy","searchable":0,"quickSearch":0,"filterable":1},
-    
+
     {"key":"csp_AppYsV2_1","name":"💕影探4K","type":3,"api":"csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://ytcms.lfytyl.com:80/api.php/app/"},
-    {"key":"csp_WoGG","name":"💕玩偶影视4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
+    {"key":"csp_WoGG","name":"💕玩偶影视4K","type":3,"api":"csp_Wogg","searchable":1,"changeable":0,"ext":{"token":"CandyMuj","filter":"./conf/wogg.json"}},
+    //{"key":"csp_WoGG","name":"💕玩偶影视4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
     {"key":"csp_AppYsV2_3","name":"💕速看100[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://sk100.tv/api.php/app/"},
     {"key":"csp_AppYsV2_4","name":"💕迪迪","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
     {"key":"csp_Bilituys","name":"💕哔哩兔影视","type":3,"api":"csp_Bilituys","searchable":1},
@@ -35,11 +36,14 @@
     {"key":"csp_MGTV","name":"💕MGTV","type":3,"api":"csp_MGTV","searchable":1},
     {"key":"csp_SP360","name":"💕360","type":3,"api":"csp_SP360","searchable":1},
     {"key":"csp_Live2Vod_1","name":"💕电视直播","type":3,"api":"csp_Live2Vod","searchable":0,"ext":"南风$https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt#饭太硬$https://agit.ai/fantaiying/fty/raw/branch/master/live.txt#影视范$https://agit.ai/fantaiying/fmm/raw/branch/main/tv/m3u/global.m3u&&&https://cdn.jsdelivr.net/gh/zhixc/CatVodTVSpider/pic/live.png"},
-    {"key":"csp_Live2Vod_2","name":"💕电视直播(远程配置版)","type":3,"api":"csp_Live2Vod","searchable":0,"ext":"http://tv.lan2wan.top/live.json"},
+    {"key":"csp_Live2Vod_2","name":"💕电视直播(远程配置版)","type":3,"api":"csp_Live2Vod","searchable":0,"ext":"./conf/live.json"},
     {"key":"csp_Yj1211","name":"💕直播综合","type":3,"api":"csp_Yj1211","searchable":1},
-    {"key":"csp_zhibo_douyu","name":"💕斗鱼直播","type":3,"api":"http://xhww.fun:63/js/drpy1.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://agit.ai/fantaiying/dr_py/raw/branch/main/js/斗鱼直播.js"},
-    {"key":"csp_zhibo_huya","name":"💕虎牙直播","type":3,"api":"http://xhww.fun:63/js/drpy1.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://agit.ai/fantaiying/dr_py/raw/branch/main/js/虎牙直播.js"},
-    {"key":"csp_zhibo_bili","name":"💕哔哩直播","type":3,"api":"http://xhww.fun:63/js/drpy1.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://agit.ai/fantaiying/dr_py/raw/branch/main/js/哔哩直播.js"},
+    {"key":"csp_Local","name":"💕本地","type":3,"api":"csp_Local","searchable":0,"changeable":0},
+    {"key":"csp_AList","name":"💕AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":"./conf/alist.json"},
+    {"key":"csp_WebDAV","name":"💕WebDAV","type":3,"api":"csp_WebDAV","searchable":1,"changeable":0,"ext":"./conf/webdav.json"},
+    {"key":"csp_zhibo_douyu","name":"💥斗鱼直播","type":3,"api":"http://xhww.fun:63/js/drpy1.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://agit.ai/fantaiying/dr_py/raw/branch/main/js/斗鱼直播.js"},
+    {"key":"csp_zhibo_huya","name":"💥虎牙直播","type":3,"api":"http://xhww.fun:63/js/drpy1.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://agit.ai/fantaiying/dr_py/raw/branch/main/js/虎牙直播.js"},
+    {"key":"csp_zhibo_bili","name":"💥哔哩直播","type":3,"api":"http://xhww.fun:63/js/drpy1.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://agit.ai/fantaiying/dr_py/raw/branch/main/js/哔哩直播.js"},
 
     {"key":"我的哔哩(js)","name":"💥我的哔哩(js)","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/我的哔哩.js"},
     {"key":"爱看(js)","name":"💥爱看(js)","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/爱看.js"},
