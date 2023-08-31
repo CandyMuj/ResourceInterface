@@ -1,6 +1,7 @@
 {
   "drives": [
-    {"name":"七米蓝","server":"https://al.chirmyram.com/dav","user":"alist","pass":"alist"}
+    {"name":"期待你的贡献","server":"https://www.baidu.com","user":"alist","pass":"alist"}
+    //{"name":"七米蓝","server":"https://al.chirmyram.com/dav","user":"alist","pass":"alist"}
     //{"name":"影视库","server":"https://esir.eu.org/dav","user":"alist","pass":"alist"}
   ]
 }
