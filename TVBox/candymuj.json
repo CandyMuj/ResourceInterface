@@ -19,7 +19,7 @@
     {"key":"csp_CandyMuj_yzzy","name":"💖优质资源","type":3,"api":"csp_CandyMuj_yzzy","searchable":0,"quickSearch":0,"filterable":1},
     {"key":"csp_CandyMuj_iwant","name":"💖iwant","type":3,"api":"csp_CandyMuj_iwant","click":".vjs-big-play-button","searchable":1,"quickSearch":1,"filterable":0,"ext":"192.168.101.11:10020"},
     {"key":"csp_CandyMuj_fuliji","name":"💖福利姬(直连)","type":3,"api":"csp_CandyMuj_fuliji","searchable":1,"quickSearch":1,"filterable":0,"ext":"192.168.101.11:10020"},
-    {"key":"csp_CandyMuj_kuaimao","name":"💖快猫(直连)","type":3,"api":"csp_CandyMuj_kuaimao","searchable":1,"quickSearch":1,"filterable":0,"ext":"192.168.101.11:10020"},
+    //{"key":"csp_CandyMuj_kuaimao","name":"💖快猫(直连)","type":3,"api":"csp_CandyMuj_kuaimao","searchable":1,"quickSearch":1,"filterable":0,"ext":"192.168.101.11:10020"},
     {"key":"csp_CandyMuj_rou","name":"💖肉视频","type":3,"api":"csp_CandyMuj_rou","searchable":1,"quickSearch":1,"filterable":1,"ext":"192.168.101.11:10020"},
 
     {"key":"csp_AppYsV2_1","name":"💕影探4K","type":3,"api":"csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://ytcms.lfytyl.com:80/api.php/app/"},
