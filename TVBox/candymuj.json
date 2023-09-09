@@ -1,6 +1,6 @@
 {
   "wallpaper":"https://picsum.photos/1280/720",
-  "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;9962e7c6bb6dca946b089d1372b8184b",
+  "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;ec7dca41cd851d6b91c85135fec2e6b5",
   "lives": [
     {"group": "redirect","channels": [{"name": "redirect","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly90di5sYW4yd2FuLnRvcC9saXZlLnR4dA=="]}]}
   ],
