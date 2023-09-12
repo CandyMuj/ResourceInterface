@@ -18,6 +18,7 @@
 <div align=center>
 <img src="https://img1.imgtp.com/2023/08/16/KGWoQwgV.png" alt="CandyMuj" width="300" />
 </div>
+
 ## 加入QQ频道
 
 > 直接点击链接即可 [https://pd.qq.com/s/33b845g08](https://pd.qq.com/s/33b845g08)
