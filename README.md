@@ -7,7 +7,9 @@
 
 
 
-# 防失联，建议关注公众号
+# 防失联
+
+## **建议关注公众号**
 
 1、在微信```添加朋友-公众号```中搜索   **CandyMuj** 进行添加
 
@@ -16,6 +18,15 @@
 <div align=center>
 <img src="https://img1.imgtp.com/2023/08/16/KGWoQwgV.png" alt="CandyMuj" width="300" />
 </div>
+## 加入QQ频道
+
+> 直接点击链接即可 [https://pd.qq.com/s/33b845g08](https://pd.qq.com/s/33b845g08)
+>
+> 可能极少数的QQ会提示没有权限
+
+## 加入QQ群
+
+> 群号 333836146
 
 # TVBox
 
