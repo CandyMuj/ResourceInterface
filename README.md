@@ -27,7 +27,7 @@
 
 ## 加入QQ群
 
-> 群号 333836146
+> 群号 [333836146](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=YHK-CcKZxGXoRAmDzczrEXG_BtaKlJgs&authKey=zwc4tbb4N%2Bjv3P8fS3S%2BEvhRTQ56QPDvbL%2B%2Bm9Ix7XhbyrddW9bCRYw%2BiX1iYdhZ&noverify=0&group_code=333836146)
 
 # TVBox
 
