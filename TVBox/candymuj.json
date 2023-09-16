@@ -1,6 +1,6 @@
 {
   "wallpaper":"https://picsum.photos/1280/720",
-  "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;c44bd713e1abd10cda9479f6b9cad6cf",
+  "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;9bfbda9882ace53ba8a51c4c2cb19ef4",
   "lives": [
     {"name":"live","type":0,"playerType":1,"url":"https://tv.lan2wan.top/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://epg.112114.xyz/logo/{name}.png","ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"},
     {"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly90di5sYW4yd2FuLnRvcC9saXZlLnR4dA=="]}]}
@@ -8,7 +8,7 @@
 
   "sites":[
     {"key":"csp_DoubanForTVBox","name":"💕防失联关注公众号[CandyMuj]","type":3,"api":"csp_DoubanForTVBox","searchable":0},
-    {"key":"豆瓣(js)","name":"💥豆瓣(js)","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/drpy.js"},
+    {"key":"豆瓣(js)","name":"💥豆瓣","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/drpy.js"},
 
     {"key":"csp_CandyMuj_freeok","name":"💖FreeOK","type":3,"api":"csp_CandyMuj_freeok","searchable":1,"quickSearch":0,"filterable":1},
     {"key":"csp_CandyMuj_sstv","name":"💖速搜影院(4K)","type":3,"api":"csp_CandyMuj_sstv","searchable":0,"quickSearch":0,"filterable":1},
@@ -28,6 +28,7 @@
     //{"key":"csp_WoGG","name":"💕玩偶影视4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
     {"key":"csp_AppYsV2_3","name":"💕速看100[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://sk100.tv/api.php/app/"},
     {"key":"csp_AppYsV2_4","name":"💕迪迪","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
+    {"key":"csp_Bili","name":"💕哔哩合集","type":3,"api":"csp_Bili","searchable":1,"quickSearch":0,"filterable":1,"ext":{"json":"./conf/bili.json"}},
     {"key":"csp_Bilituys","name":"💕哔哩兔影视","type":3,"api":"csp_Bilituys","searchable":1},
     {"key":"csp_Czsapp","name":"💕厂长","type":3,"api":"csp_Czsapp","searchable":1},
     {"key":"csp_Ddrk","name":"💕低端影视","type":3,"api":"csp_Ddrk","click":"ddys.pro;#vjsp > button","searchable":1},
@@ -42,6 +43,10 @@
     {"key":"csp_Live2Vod_1","name":"💕电视直播","type":3,"api":"csp_Live2Vod","searchable":0,"ext":"南风$https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt#饭太硬$https://agit.ai/fantaiying/fty/raw/branch/master/live.txt#影视范$https://agit.ai/fantaiying/fmm/raw/branch/main/tv/m3u/global.m3u&&&https://cdn.jsdelivr.net/gh/zhixc/CatVodTVSpider/pic/live.png"},
     {"key":"csp_Live2Vod_2","name":"💕电视直播(远程配置版)","type":3,"api":"csp_Live2Vod","searchable":0,"ext":"./conf/live.json"},
     {"key":"csp_Yj1211","name":"💕直播综合","type":3,"api":"csp_Yj1211","searchable":1},
+    {"key":"csp_Bili_1","name":"💕少儿教育","type":3,"api":"csp_Bili","searchable":1,"quickSearch":0,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.433},"ext":{"json":"./conf/bili1.json"}},
+    {"key":"csp_Bili_2","name":"💕小学课堂","type":3,"api":"csp_Bili","searchable":1,"quickSearch":0,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.433},"ext":{"json":"./conf/bili2.json"}},
+    {"key":"csp_Bili_3","name":"💕初中课堂","type":3,"api":"csp_Bili","searchable":1,"quickSearch":0,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.433},"ext":{"json":"./conf/bili3.json"}},
+    {"key":"csp_Bili_4","name":"💕高中课堂","type":3,"api":"csp_Bili","searchable":1,"quickSearch":0,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.433},"ext":{"json":"./conf/bili4.json"}},
     {"key":"csp_Local","name":"💕本地","type":3,"api":"csp_Local","searchable":0,"changeable":0},
     {"key":"csp_AList","name":"💕AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":"./conf/alist.json"},
     {"key":"csp_WebDAV","name":"💕WebDAV","type":3,"api":"csp_WebDAV","searchable":1,"changeable":0,"ext":"./conf/webdav.json"},
@@ -49,13 +54,13 @@
     {"key":"csp_zhibo_huya","name":"💥虎牙直播","type":3,"api":"http://xhww.fun:63/js/drpy1.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://agit.ai/fantaiying/dr_py/raw/branch/main/js/虎牙直播.js"},
     {"key":"csp_zhibo_bili","name":"💥哔哩直播","type":3,"api":"http://xhww.fun:63/js/drpy1.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://agit.ai/fantaiying/dr_py/raw/branch/main/js/哔哩直播.js"},
 
-    {"key":"我的哔哩(js)","name":"💥我的哔哩(js)","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/我的哔哩.js"},
-    {"key":"爱看(js)","name":"💥爱看(js)","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/爱看.js"},
-    {"key":"厂长(js)","name":"💥厂长(js)","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/厂长资源.js"},
-    {"key":"低端(js)","name":"💥低端(js)","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/ddys.js"},
-    {"key":"两个BT(js)","name":"💥两个BT(js)","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/两个BT.js"},
-    {"key":"怡萱动漫(js)","name":"💥怡萱动漫(js)","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/怡萱动漫.js"},
-    {"key":"子子影视(js)","name":"💥子子影视(js)","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/子子影视.js"},
+    {"key":"我的哔哩(js)","name":"💥哔哩合集","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/我的哔哩.js"},
+    {"key":"爱看(js)","name":"💥爱看","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/爱看.js"},
+    {"key":"厂长(js)","name":"💥厂长","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/厂长资源.js"},
+    {"key":"低端(js)","name":"💥低端","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/ddys.js"},
+    {"key":"两个BT(js)","name":"💥两个BT","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/两个BT.js"},
+    {"key":"怡萱动漫(js)","name":"💥怡萱动漫","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/怡萱动漫.js"},
+    {"key":"子子影视(js)","name":"💥子子影视","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/子子影视.js"},
     {"key":"push_agent","name":"💤推送(播放页链接或磁力)","type":3,"api":"csp_PushAgent","searchable":0}
   ],
 
@@ -159,10 +164,38 @@
 
   "rules": [
       {
+          "name": "海外看",
+          "hosts": [
+              "haiwaikan"
+          ],
+          "regex": [
+              "#EXTINF:(0|1|2|7\\.90).*?\\s+.*?921c07e8bfad6789.*?\\.ts\\s+"
+          ]
+      },
+      {
+          "name": "暴风",
+          "hosts": [
+              "bfzy"
+          ],
+          "regex": [
+              "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+          ]
+      },
+      {
+          "name": "星星",
+          "hosts": [
+              "aws.ulivetv.net"
+          ],
+          "regex": [
+              "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+          ]
+      },
+      {
           "name": "量子",
           "hosts": [
               "vip.lz",
-              "hd.lz"
+              "hd.lz",
+              "v.cdnlz"
           ],
           "regex": [
               "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
