@@ -1,5 +1,5 @@
 {
-  "vodPic": "https://s1.ax1x.com/2023/05/04/p9tgI81.png",
+  "vodPic": "https://x.imgs.ovh/x/2023/09/05/64f680bb030b4.png",
   "drives": [
     {"name":"模板","server":"https://one.fongmi.com","hidden":true,"login":{"username":"fongmi","password":"fongmi"},"params":[{"path":"/安斋拉拉","pass":"18181818"}]},
     {"name":"TIYCHU","server":"https://pan.tiychu.com/首页"},
@@ -15,7 +15,8 @@
     {"name":"神族九帝","server":"https://alist.shenzjd.com"}
     //{"name":"好汉吧(学习课程)","server":"http://8023.haohanba.cn"},
     //{"name":"梓澪","server":"https://zi0.cc"},
-    //{"name":"一只鱼","server":"https://vtok.pp.ua/"},
+    //{"name":"一只鱼","server":"https://vtok.pp.ua"},
     //{"name":"NICS","server":"https://nics.eu.org"},
+    //{"name":"雨呢","server":"https://pan.clun.top"},
   ]
 }
