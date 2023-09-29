@@ -1,6 +1,6 @@
 {
   "wallpaper":"https://picsum.photos/1280/720",
-  "spider": "https://ghproxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;ec5095c1dfc3e2679f693d1bc37d74be",
+  "spider": "https://ghproxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;872fa13b160d5bff8c770441915c86ee",
   "lives": [
     {"name":"live","type":0,"playerType":1,"url":"https://tv.lan2wan.top/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://epg.112114.xyz/logo/{name}.png","ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"},
     {"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly90di5sYW4yd2FuLnRvcC9saXZlLnR4dA=="]}]}
@@ -11,6 +11,7 @@
     {"key":"豆瓣(js)","name":"💥豆瓣","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1, "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/drpy.js"},
 
     {"key":"csp_CandyMuj_freeok","name":"💖FreeOK","type":3,"api":"csp_CandyMuj_freeok","searchable":1,"quickSearch":0,"filterable":1},
+    {"key":"csp_CandyMuj_jxyc","name":"💖京项影城(高清快速)","type":3,"api":"csp_CandyMuj_jxyc","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_sstv","name":"💖速搜影院(4K)","type":3,"api":"csp_CandyMuj_sstv","searchable":0,"quickSearch":0,"filterable":1},
     {"key":"csp_CandyMuj_haokongbu","name":"💖好恐怖","type":3,"api":"csp_CandyMuj_haokongbu","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_taoju","name":"💖淘剧影院","type":3,"api":"csp_CandyMuj_taoju","searchable":1,"quickSearch":1,"filterable":1},

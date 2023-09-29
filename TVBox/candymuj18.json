@@ -1,6 +1,6 @@
 {
   "wallpaper":"https://gao.chuqiuyu.tk",
-  "spider": "https://ghproxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;ec5095c1dfc3e2679f693d1bc37d74be",
+  "spider": "https://ghproxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;872fa13b160d5bff8c770441915c86ee",
   "lives": [
     {"name":"live","type":0,"playerType":1,"url":"https://tv.lan2wan.top/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://epg.112114.xyz/logo/{name}.png","ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"},
     {"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly90di5sYW4yd2FuLnRvcC9saXZlLnR4dA=="]}]}
