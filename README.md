@@ -13,8 +13,9 @@
 
 <div align=center>
 <img src="https://p.sda1.dev/13/91c5ba7d12008d1e60e618a5ffe944de/pay_wx.png" alt="CandyMuj" width="300" height="365" />
-<img src="https://p.sda1.dev/13/d19d08d765f43f862f06d63c6de96ddc/pay_ali.png" alt="CandyMuj" width="300" height="365" />
+<img src="https://p.sda1.dev/13/ddc8185e90b24e5785f0d0d0308cacce/pay_ali.jpg" alt="CandyMuj" width="300" height="365" />
 </div>
+
 
 # 防失联
 
