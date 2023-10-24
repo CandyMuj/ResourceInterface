@@ -1,6 +1,6 @@
 {
   "wallpaper":"https://gao.chuqiuyu.tk",
-  "spider": "https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;f7ba9054a2ecb212449dfe3342c42f10",
+  "spider": "https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;6100883dc4b8bda3a1e708cc02287541",
   "lives": [
     {"name":"live","type":0,"playerType":1,"url":"https://tv.lan2wan.top/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://epg.112114.xyz/logo/{name}.png","ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"},
     {"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly90di5sYW4yd2FuLnRvcC9saXZlLnR4dA=="]}]}
@@ -11,9 +11,9 @@
 
     {"key":"csp_CandyMuj_haokongbu","name":"💖好恐怖(直连)","type":3,"api":"csp_CandyMuj_haokongbu","searchable":1,"quickSearch":1,"filterable":1,"categories":["伦理"]},
     {"key":"csp_CandyMuj_lm5","name":"💖星辰影院(直连)","type":3,"api":"csp_CandyMuj_lm5","searchable":1,"quickSearch":1,"filterable":0,"categories":["伦理","野花"]},
-    {"key":"csp_CandyMuj_iwant","name":"💖iwant(墙外)","type":3,"api":"csp_CandyMuj_iwant","click":".vjs-big-play-button","searchable":1,"quickSearch":1,"filterable":0,"ext":"192.168.101.11:10020"},
-    {"key":"csp_CandyMuj_fuliji","name":"💖福利姬(墙外)","type":3,"api":"csp_CandyMuj_fuliji","searchable":1,"quickSearch":1,"filterable":0,"ext":"192.168.101.11:10020"},
-    {"key":"csp_CandyMuj_rou","name":"💖肉视频(墙外)","type":3,"api":"csp_CandyMuj_rou","searchable":1,"quickSearch":1,"filterable":1,"ext":"192.168.101.11:10020"},
+    {"key":"csp_CandyMuj_iwant","name":"💖iwant(墙外)","type":3,"api":"csp_CandyMuj_iwant","click":".vjs-big-play-button","searchable":1,"quickSearch":1,"filterable":0,"ext":"192.168.101.11:10031"},
+    {"key":"csp_CandyMuj_fuliji","name":"💖福利姬(墙外)","type":3,"api":"csp_CandyMuj_fuliji","searchable":1,"quickSearch":1,"filterable":0,"ext":"192.168.101.11:10031"},
+    {"key":"csp_CandyMuj_rou","name":"💖肉视频(墙外)","type":3,"api":"csp_CandyMuj_rou","searchable":1,"quickSearch":1,"filterable":1,"ext":"192.168.101.11:10031"},
 
     {"key":"csp_AList","name":"💕AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":{"drives":[{"name":"罗汉果","server":"https://lala-ofbip.run.goorm.site/"}]}},
     // FongMi
