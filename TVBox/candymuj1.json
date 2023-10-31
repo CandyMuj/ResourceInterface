@@ -29,6 +29,7 @@
     {"key":"csp_CandyMuj_yzzy","name":"💖优质资源","type":3,"api":"csp_CandyMuj_yzzy","searchable":1,"quickSearch":0,"filterable":1},
     {"key":"csp_CandyMuj_qiqiyy","name":"💖琪琪影院","type":3,"api":"csp_CandyMuj_qiqiyy","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_lm5","name":"💖星辰影院","type":3,"api":"csp_CandyMuj_lm5","searchable":1,"quickSearch":1,"filterable":0},
+    {"key":"csp_CandyMuj_duanju","name":"💥短剧网","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/短剧网.js"},
 
     {"key":"csp_AppYsV2_3","name":"💕速看100[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://sk100.tv/api.php/app/"},
     {"key":"csp_AppYsV2_4","name":"💕迪迪","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
