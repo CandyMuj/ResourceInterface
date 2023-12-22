@@ -36,9 +36,9 @@
 >
 > 可能极少数的QQ会提示没有权限
 
-## 加入QQ群
+## 加入Telegram
 
-> 群号(亦可直接点击链接一键加入) [333836146](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=YHK-CcKZxGXoRAmDzczrEXG_BtaKlJgs&authKey=zwc4tbb4N%2Bjv3P8fS3S%2BEvhRTQ56QPDvbL%2B%2Bm9Ix7XhbyrddW9bCRYw%2BiX1iYdhZ&noverify=0&group_code=333836146)
+> 直接点击链接即可 [https://t.me/CandyMujSource](https://t.me/CandyMujSource)
 
 
 
@@ -52,8 +52,8 @@
 
 * 配置地址(含极少福利资源)： https://tv.lan2wan.top/candymuj.json
 * 配置地址1(无福利资源)：https://tv.lan2wan.top/candymuj1.json
-* 备用：https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.json
-* 备用1：https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj1.json
+* 备用：https://github.moeyy.xyz/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.json
+* 备用1：https://github.moeyy.xyz/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj1.json
 
 ## 推荐软件下载
 
