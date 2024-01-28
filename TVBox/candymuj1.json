@@ -21,8 +21,6 @@
     {"key":"csp_CandyMuj_haokongbu","name":"💖好恐怖","type":3,"api":"csp_CandyMuj_haokongbu","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_taoju","name":"💖淘剧影院","type":3,"api":"csp_CandyMuj_taoju","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_dmxq","name":"💖极速影视","type":3,"api":"csp_CandyMuj_dmxq","searchable":1,"quickSearch":1,"filterable":1},
-    // {"key":"csp_CandyMuj_jxyc","name":"💖京项影城(高清快速)","type":3,"api":"csp_CandyMuj_jxyc","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://xc1080.xn--654a.cc"},
-    // {"key":"csp_CandyMuj_jxyc1","name":"💖京项影城1(高清快速)","type":3,"api":"csp_CandyMuj_jxyc","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://vipcom.xn--654a.cc"},
     {"key":"csp_CandyMuj_cokemv","name":"💖Cokemv","type":3,"api":"csp_CandyMuj_cokemv","searchable":1,"quickSearch":0,"filterable":1},
     {"key":"csp_CandyMuj_yinfans","name":"💖音范丝4K(磁力)","type":3,"api":"csp_CandyMuj_yinfans","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_nkvod","name":"💖耐看点播","type":3,"api":"csp_CandyMuj_nkvod","searchable":1,"quickSearch":0,"filterable":1},
@@ -53,13 +51,13 @@
     {"key":"JZTV┃戏曲┃大全-戏曲","name":"💓戏曲","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./conf/jztv/jiaoyu/戏曲.json","jar":"./conf/jztv/jar/jiaoyu.jar"},
     {"key":"JZTV┃健身┃大全-健身","name":"💓健身","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./conf/jztv/jiaoyu/健身.json","jar":"./conf/jztv/jar/jiaoyu.jar"},
 
-    {"key":"csp_AppYsV2_3","name":"💕速看100[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://sk100.tv/api.php/app/"},
-    {"key":"csp_AppYsV2_4","name":"💕迪迪","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
+    // {"key":"csp_AppYsV2_3","name":"💕速看100[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://sk100.tv/api.php/app/"},
+    // {"key":"csp_AppYsV2_4","name":"💕迪迪","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
     {"key":"csp_Bili","name":"💕哔哩合集","type":3,"api":"csp_Bili","searchable":1,"quickSearch":0,"filterable":1,"style":{"type":"rect","ratio":1.433},"ext":{"json":"./conf/bili.json"}},
     // {"key":"csp_Bilituys","name":"💕哔哩兔影视","type":3,"api":"csp_Bilituys","searchable":1},
     {"key":"csp_Czsapp","name":"💕厂长","type":3,"api":"csp_Czsapp","searchable":1},
     {"key":"csp_Ddrk","name":"💕低端影视","type":3,"api":"csp_Ddrk","click":"ddys.pro;#vjsp > button","searchable":1},
-    {"key":"csp_NongMing","name":"💕农民影视","type":3,"api":"csp_NongMing","searchable":1},
+    // {"key":"csp_NongMing","name":"💕农民影视","type":3,"api":"csp_NongMing","searchable":1},
     {"key":"csp_Voflix","name":"💕Voflix","type":3,"api":"csp_Voflix","searchable":1, "ext": "https://www.voflix.me/"},
     {"key":"csp_Anime1","name":"💕动漫","type":3,"api":"csp_Anime1","searchable":1},
     {"key":"csp_BTPiaoHua","name":"💕新飘花电影网(磁力)","type":3,"api":"csp_BTPiaoHua","searchable":1},
@@ -111,7 +109,7 @@
 
 
   "parses": [
-    //{"name":"Web聚合","type":3,"url":"Web"},
+    // {"name":"Web聚合","type":3,"url":"Web"},
     {"name":"Json聚合","type":3,"url":"Demo"},
     {"name":"Json并发","type":2,"url":"Parallel"},
     {"name":"Json轮询","type":2,"url":"Sequence"},
@@ -128,8 +126,6 @@
     {"name":"解析la","type":0,"url":"https://api.jiexi.la/?url="},
     {"name":"影探Z","type":0,"url":"https://jx.777jiexi.com/player/?url="},
     {"name":"ZJTV在线","type":1,"url":"http://119.91.123.253:2345/Api/yun.php?url="},
-    // {"name":"京项","type":1,"url":"http://json.xn--654a.cc/home/api?type=ys&uid=1323246&key=afghlpwxAEGLX01235&url="},
-    // {"name":"京项vip","type":1,"url":"https://xinz.xn--654a.cc/jiexixi/guanjie/9944.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","rx","ltnb","bilibili","1905","xigua"]}},
     {"name":"m3u8-77lehuo","type":0,"url":"https://player.77lehuo.com/aliplayer/?url="},
     {"name":"m3u8-dadiapi","type":0,"url":"https://play.dadiapi.com/watch?url="},
     {"name":"m3u8-ttbfp1","type":0,"url":"https://jiexi.ttbfp1.com/m3u8/?url="},
