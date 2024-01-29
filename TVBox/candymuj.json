@@ -1,6 +1,6 @@
 {
   "wallpaper":"https://picsum.photos/1280/720",
-  "spider": "https://ghss.lan2wan.top/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;bdbe201bc25c3ea75cb3ce37a4bd259f",
+  "spider": "https://ghss.lan2wan.top/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;6608048c75bae86bfc1d356b4711564b",
   "lives": [
     {"name":"live","type":0,"playerType":1,"url":"https://tv.lan2wan.top/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://epg.112114.xyz/logo/{name}.png","ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"},
     {"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly90di5sYW4yd2FuLnRvcC9saXZlLnR4dA=="]}]}
@@ -20,7 +20,7 @@
     {"key":"csp_CandyMuj_hjtv","name":"💖韩剧TV","type":3,"api":"csp_CandyMuj_hjtv","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_haokongbu","name":"💖好恐怖","type":3,"api":"csp_CandyMuj_haokongbu","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_taoju","name":"💖淘剧影院","type":3,"api":"csp_CandyMuj_taoju","searchable":1,"quickSearch":1,"filterable":1},
-    {"key":"csp_CandyMuj_dmxq","name":"💖极速影视","type":3,"api":"csp_CandyMuj_dmxq","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_CandyMuj_dyls","name":"💖极速影视","type":3,"api":"csp_CandyMuj_dyls","searchable":1,"quickSearch":1,"filterable":1,"ext":"./conf/dyls.json"},
     {"key":"csp_CandyMuj_cokemv","name":"💖Cokemv","type":3,"api":"csp_CandyMuj_cokemv","searchable":1,"quickSearch":0,"filterable":1},
     {"key":"csp_CandyMuj_yinfans","name":"💖音范丝4K(磁力)","type":3,"api":"csp_CandyMuj_yinfans","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_nkvod","name":"💖耐看点播","type":3,"api":"csp_CandyMuj_nkvod","searchable":1,"quickSearch":0,"filterable":1},
