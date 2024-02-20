@@ -1,6 +1,6 @@
 {
   "wallpaper":"https://picsum.photos/1280/720",
-  "spider": "https://ghss.lan2wan.top/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;bd768f931f54d2a2fcecd72ac3ad5d44",
+  "spider": "https://ghss.lan2wan.top/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;bb7b588c9df16c7b9d743cc4763012b2",
   "lives": [
     {"name":"live","type":0,"playerType":1,"url":"https://tv.lan2wan.top/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://epg.112114.xyz/logo/{name}.png","ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"},
     {"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly90di5sYW4yd2FuLnRvcC9saXZlLnR4dA=="]}]}
@@ -32,7 +32,7 @@
     {"key":"JZTV|ZJTV┃自营-csp_xBPQ_ZJTV","name":"💓高清影视","type":3,"api":"csp_XBPQ","jar":"./conf/jztv/jar/xbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./conf/jztv/json/zjtv.json"},
     {"key":"JZTV┃蓝光5┃4K-xb影巢网盘","name":"💓影巢网盘","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":"./conf/jztv/lib/pg.json$$$null$$$1","timeout":60,"jar":"./conf/jztv/jar/xhkw0104.jar"},
     {"key":"JZTV1┃影视-小胡","name":"💓小胡","type":1,"playerType":1,"api":"http://c.小胡.icu/api.php/provide/vod/","jar":"./conf/jztv/jar/xhkw0104.jar"},
-    {"key":"JZTV2┃追剧-996影院","name":"💓996影院","type":3,"api":"csp_Cs1369","searchable":1,"changeable":0,"jar":"./conf/jztv/jar/xhkw0104.jar"},
+    // {"key":"JZTV2┃追剧-996影院","name":"💓996影院","type":3,"api":"csp_Cs1369","searchable":1,"changeable":0,"jar":"./conf/jztv/jar/xhkw0104.jar"},
     {"key":"JZTV3┃切片-亮亮","name":"💓亮亮","type":3,"api":"./conf/jztv/lib/drpy2.min.js","ext":"./conf/jztv/js/亮亮.js","searchable":1,"quickSearch":1,"changeable":0},
     {"key":"JZTV3┃动漫-动漫巴士","name":"💓动漫巴士","type":3,"api":"csp_XBPQ","jar":"./conf/jztv/jar/xbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./conf/jztv/json/dmbs.json"},
     {"key":"JZTV1┃切片-js_v2-jrly","name":"💓嘉靓(短剧)","type":3,"api":"./conf/jztv/lib/drpy2.min.js","ext":"./conf/jztv/js/嘉靓.js"},
