@@ -32,7 +32,7 @@
 
 ## 加入QQ频道
 
-> 直接点击链接即可 [https://pd.qq.com/s/33b845g08](https://pd.qq.com/s/33b845g08)
+> 直接点击链接即可 [https://pd.qq.com/s/7syeeejxz](https://pd.qq.com/s/7syeeejxz)
 >
 > 可能极少数的QQ会提示没有权限
 
