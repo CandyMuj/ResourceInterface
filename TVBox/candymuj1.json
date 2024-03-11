@@ -1,6 +1,6 @@
 {
   "wallpaper":"https://picsum.photos/1280/720",
-  "spider": "https://ghss.lan2wan.top/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;bb7b588c9df16c7b9d743cc4763012b2",
+  "spider": "https://ghss.lan2wan.top/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;7bdeddc74f9a98dc8095d7304746830d",
   "lives": [
     {"name":"live","type":0,"playerType":1,"url":"https://tv.lan2wan.top/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://epg.112114.xyz/logo/{name}.png","ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"},
     {"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly90di5sYW4yd2FuLnRvcC9saXZlLnR4dA=="]}]}
@@ -18,6 +18,7 @@
     // {"key":"JZTV┃蓝光3┃4K-玩偶表哥","name":"💖玩偶表哥4K-备4","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":2,"ext":"./conf/jztv/lib/pg.json$$$https://wobge.run.goorm.io$$$1$$$./conf/jztv/json/wogg.json","timeout":60,"jar":"./conf/jztv/jar/xhkw0104.jar"},
     // {"key":"csp_CandyMuj_sstv","name":"💖速搜影院(2K)","type":3,"api":"csp_CandyMuj_sstv","searchable":1,"quickSearch":0,"filterable":1},
     {"key":"csp_CandyMuj_hjtv","name":"💖韩剧TV","type":3,"api":"csp_CandyMuj_hjtv","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_CandyMuj_netflixgc","name":"💖奈飞工厂","type":3,"api":"csp_CandyMuj_netflixgc","searchable":1,"quickSearch":0,"filterable":1,"ext":"./conf/netflixgc.json"},
     {"key":"csp_CandyMuj_haokongbu","name":"💖好恐怖","type":3,"api":"csp_CandyMuj_haokongbu","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_taoju","name":"💖淘剧影院","type":3,"api":"csp_CandyMuj_taoju","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_dyls","name":"💖极速影视","type":3,"api":"csp_CandyMuj_dyls","searchable":1,"quickSearch":1,"filterable":1,"ext":"./conf/dyls.json"},
