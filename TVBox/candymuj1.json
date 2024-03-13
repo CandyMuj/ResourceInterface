@@ -18,7 +18,7 @@
     // {"key":"JZTV┃蓝光3┃4K-玩偶表哥","name":"💖玩偶表哥4K-备4","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":2,"ext":"./conf/jztv/lib/pg.json$$$https://wobge.run.goorm.io$$$1$$$./conf/jztv/json/wogg.json","timeout":60,"jar":"./conf/jztv/jar/xhkw0104.jar"},
     // {"key":"csp_CandyMuj_sstv","name":"💖速搜影院(2K)","type":3,"api":"csp_CandyMuj_sstv","searchable":1,"quickSearch":0,"filterable":1},
     {"key":"csp_CandyMuj_hjtv","name":"💖韩剧TV","type":3,"api":"csp_CandyMuj_hjtv","searchable":1,"quickSearch":1,"filterable":1},
-    {"key":"csp_CandyMuj_netflixgc","name":"💖奈飞工厂","type":3,"api":"csp_CandyMuj_netflixgc","searchable":1,"quickSearch":0,"filterable":1,"ext":"./conf/netflixgc.json"},
+    // {"key":"csp_CandyMuj_netflixgc","name":"💖奈飞工厂","type":3,"api":"csp_CandyMuj_netflixgc","searchable":1,"quickSearch":0,"filterable":1,"ext":"./conf/netflixgc.json"},
     {"key":"csp_CandyMuj_haokongbu","name":"💖好恐怖","type":3,"api":"csp_CandyMuj_haokongbu","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_taoju","name":"💖淘剧影院","type":3,"api":"csp_CandyMuj_taoju","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CandyMuj_dyls","name":"💖极速影视","type":3,"api":"csp_CandyMuj_dyls","searchable":1,"quickSearch":1,"filterable":1,"ext":"./conf/dyls.json"},
