@@ -4,7 +4,7 @@
 **目前已经有的接口**(点击可跳转)
 
 * [TVBox接口](#TVBox)
-* [Legado阅读3.x书源](#Legado 3.x)
+* [Legado阅读3.x书源](#Legado-3.x)
 
 ---
 
