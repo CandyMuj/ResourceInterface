@@ -64,14 +64,18 @@
 ## 配置地址
 
 * 配置地址(含极少福利资源)： https://tv.lan2wan.top/candymuj.json
+  * 备用：https://tv1.lan2wan.top/candymuj.json
+  * 备用：https://ghss.lan2wan.cloudns.org/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.json
+  * 备用：https://gitdl.cn/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.json
   * 备用：https://cdn.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj.json
   * 备用：https://gcore.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj.json
-  * 备用：https://ghss.lan2wan.top/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.json
-
+  
 * 配置地址1(无福利资源)：https://tv.lan2wan.top/candymuj1.json
+  * 备用：https://tv1.lan2wan.top/candymuj1.json
+  * 备用：https://ghss.lan2wan.cloudns.org/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj1.json
+  * 备用：https://gitdl.cn/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj1.json
   * 备用：https://cdn.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj1.json
   * 备用：https://gcore.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj1.json
-  * 备用：https://ghss.lan2wan.top/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj1.json
 
 
 ## 推荐软件下载
@@ -105,9 +109,10 @@
 ## 配置地址
 
 * 书源配置：https://yd.lan2wan.top/candymuj.json
+  * 备用：https://ghss.lan2wan.cloudns.org/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/Legado/candymuj.json
+  * 备用：https://gitdl.cn/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/Legado/candymuj.json
   * 备用：https://cdn.jsdelivr.net/gh/CandyMuj/ResourceInterface/Legado/candymuj.json
   * 备用：https://gcore.jsdelivr.net/gh/CandyMuj/ResourceInterface/Legado/candymuj.json
-  * 备用：https://ghss.lan2wan.top/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/Legado/candymuj.json
 
 
 ## 关于软件下载及使用方法
