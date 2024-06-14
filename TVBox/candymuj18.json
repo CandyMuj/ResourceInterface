@@ -149,13 +149,13 @@
     {"key":"zp061","name":"🍅富二代资源(直连)","type":0,"api":"http://f2dcj6.com/sapi/?ac=videolist","searchable":1,"quickSearch":1,"filterable":0},
     {"key":"lyzyz78|laoyazy.com","name":"🍅老鸭资源(直连)","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1},
 
-    {"key":"push_agent","name":"💤推送(播放页链接或磁力)","type":3,"api":"csp_PushAgent","searchable":0}
+    {"key":"push_agent","name":"💤推送(播放页链接或磁力)","type":3,"api":"csp_PushAgent","searchable":0,"ext":{"domain":"./","aliToken":"CandyMuj"}}
   ],
 
 
 
   "parses": [
-    //{"name":"Web聚合","type":3,"url":"Web"},
+    // {"name":"Web聚合","type":3,"url":"Web"},
     {"name":"Json聚合","type":3,"url":"Demo"},
     {"name":"Json并发","type":2,"url":"Parallel"},
     {"name":"Json轮询","type":2,"url":"Sequence"},
