@@ -83,23 +83,18 @@
 ### Android手机
 
 * v7a(FongMi 32位): https://dwz.lan2wan.top/E0Naou7t70
-
 * v8a(FongMi 64位): https://dwz.lan2wan.top/7zyrYy00qb
 
 ### TV
 
 * (推荐 takagen99): https://dwz.lan2wan.top/OqMo4eWTVR
-
 * (次选1 FongMi 32位): https://dwz.lan2wan.top/tYoJlUGeWs
-
-* (次选2 q版): https://dwz.lan2wan.top/X31gtg8yKP
-
-* (次选3 皮皮虾 t版): https://dwz.lan2wan.top/GOZEdJom2v
-
-* (次选4 皮皮虾 q版): https://dwz.lan2wan.top/YyJzsqSh1r
-
+* (次选2 FongMi 海信专版): https://dwz.lan2wan.top/WDSHvcRwde
+* (次选3 q版): https://dwz.lan2wan.top/X31gtg8yKP
+* (次选4 皮皮虾 t版): https://dwz.lan2wan.top/GOZEdJom2v
+* (次选5 皮皮虾 q版): https://dwz.lan2wan.top/YyJzsqSh1r
+* (次选6 FongMi 电视版-X5离线): https://dwz.lan2wan.top/yxEFDm1f8X
 * (新设备 FongMi 64位): https://dwz.lan2wan.top/36QYthy3ay
-
 * (老设备 FongMi 4.x): https://dwz.lan2wan.top/adW7sSju1f
 
 ---
