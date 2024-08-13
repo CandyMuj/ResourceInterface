@@ -513,5 +513,5 @@ var rule = {
         });
         VODS = videos
     `,
-    // 预处理:'if(rule_fetch_params.headers.Cookie.startsWith("http")){rule_fetch_params.headers.Cookie=fetch(rule_fetch_params.headers.Cookie);setItem(RULE_CK,cookie)};log(rule_fetch_params.headers.Cookie)',
+    预处理:'if(!rule_fetch_params.headers.Cookie.indexOf("buvid3")!=-1){rule_fetch_params.headers.Cookie=CandyMuj.getConfig("bili")["bili_cookie"]}',
 }
