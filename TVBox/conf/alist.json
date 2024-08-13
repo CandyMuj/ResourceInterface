@@ -1,18 +1,20 @@
 {
-  "vodPic": "https://x.imgs.ovh/x/2023/09/05/64f680bb030b4.png",
+  "vodPic": "",
   "drives": [
     {"name":"模板","server":"https://one.fongmi.com","hidden":true,"login":{"username":"fongmi","password":"fongmi"},"params":[{"path":"/安斋拉拉","pass":"18181818"}]},
     // {"name":"TIYCHU","server":"https://pan.tiychu.com/首页"},
-    {"name":"少儿动漫盘","server":"http://pan.smjc.cc"},
+    // {"name":"少儿动漫盘","server":"http://pan.smjc.cc"},
     {"name":"ECVE","server":"https://pan.ecve.cn"},
     {"name":"小雅","server":"http://alist.xiaoya.pro","search":false},
-    {"name":"杜比","server":"https://dubi.tk"},
-    {"name":"宝藏库","server":"https://alist.ccome.site"},
-    {"name":"触光","server":"https://pan.ichuguang.com/影视(更新中)"},
-    {"name":"弱水","server":"http://shicheng.wang:555"},
+    // {"name":"小雅-备用","server":"http://xiaoya.xlog.cc/","startPage":"/","showAll":false,"search":true,"headers":{"Authorization":""}},
+    // {"name":"杜比","server":"https://dubi.tk"},
+    // {"name":"宝藏库","server":"https://alist.ccome.site"},
+    // {"name":"触光","server":"https://pan.ichuguang.com/影视(更新中)"},
+    // {"name":"弱水","server":"http://shicheng.wang:555"},
     {"name":"星梦","server":"https://pan.bashroot.top"},
     {"name":"七米蓝","server":"https://al.chirmyram.com"},
-    {"name":"神族九帝","server":"https://alist.shenzjd.com"}
+    // {"name":"神族九帝","server":"https://alist.shenzjd.com"},
+    {"name":"ASMR","server":"https://www.asmrgay.com/"}
     //{"name":"好汉吧(学习课程)","server":"http://8023.haohanba.cn"},
     //{"name":"梓澪","server":"https://zi0.cc"},
     //{"name":"一只鱼","server":"https://vtok.pp.ua"},
