@@ -2463,6 +2463,7 @@ function init(ext) {
                 let js = request(ext,{'method':'GET'});
                 if (js){
                     eval(js.replace('var rule', 'rule'));
+                    CandyMuj.DOMAIN = ext.split('/').slice(0, 3).join('/')
                 }
             } else {
                 eval(ext.replace('var rule', 'rule'));
@@ -2766,6 +2767,30 @@ function isVideo(url){
     }
     return result
 }
+
+
+var CandyMuj = {
+    DOMAIN: null,
+    CONFIG: "/conf/conf.json",
+    CONFIG_CACHE: {},
+
+
+    getConfig: key => {
+        try {
+            if (!CandyMuj.DOMAIN) return ''
+            let url = CandyMuj.DOMAIN + CandyMuj.CONFIG
+            let config = CandyMuj.CONFIG_CACHE[url]
+            if (!config) {
+                config = JSON.parse(fetch(url))
+                CandyMuj.CONFIG_CACHE[url] = config
+            }
+            return key ? config[key] || {} : config
+        } catch (e) {
+            console.log('[CandyMuj.getConfig]发生异常: ' + e.message)
+        }
+    }
+}
+
 
 function DRPY(){//导出函数
     return {
