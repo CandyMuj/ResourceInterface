@@ -1,5 +1,4 @@
 {
-  "vodPic": "",
   "drives": [
     {"name":"模板","server":"https://one.fongmi.com","hidden":true,"login":{"username":"fongmi","password":"fongmi"},"params":[{"path":"/安斋拉拉","pass":"18181818"}]},
     // {"name":"TIYCHU","server":"https://pan.tiychu.com/首页"},
