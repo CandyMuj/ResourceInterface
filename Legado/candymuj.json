@@ -50,5 +50,55 @@
         },
         "searchUrl": "/plus/search.php?q={{key}}",
         "weight": 0
+    },
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "💖CandyMuj",
+        "bookSourceName": "💖妙味书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tangsanbooks.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"全部小说\",\"url\":\"/all\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36\"\n}",
+        "lastUpdateTime": 1727668097557,
+        "respondTime": 180000,
+        "ruleExplore": {
+            "bookList": "ul.nine-list a",
+            "name": "text\n@js:\nresult.split(\"/\")[0]",
+            "author": "span@text\n@js:\nresult.split(\"/\")[1]",
+            "bookUrl": "@href"
+        },
+        "ruleToc": {
+            "chapterList": "div.list.category-list li a",
+            "chapterName": "@title",
+            "chapterUrl": "@href"
+        },
+        "weight": 0,
+        "ruleBookInfo": {
+            "name": "div.book-title h1@text",
+            "author": "div.book-title span@text\n@js:\nresult##作者：",
+            "coverUrl": "div.book-info .book-image img@src",
+            "tocUrl": "",
+            "intro": "div.book-des .cate-desc@text",
+            "lastChapter": "div.book-des .col-half a@text\n@js:\nresult.replace(book.name,'')",
+            "kind": "//div[@class='book-des']//div[(@class='col-half') and contains(text(), '更新时间')]//text()\n@js:\nresult##更新时间："
+        },
+        "ruleContent": {
+            "content": "div.article-box .detailinfo .ui-tabs-panel p@text",
+            "nextContentUrl": "#page-links a@href",
+            "replaceRegex": "##本章完.*"
+        },
+        "searchUrl": "/all",
+        "ruleSearch": {
+            "checkKeyWord": "万相之王",
+            "bookList": "ul.nine-list a\n@js:\nlet arr=[]\nfor(i in result){\nlet item = result[i]\nlet bname = item.text().split(\"/\")[0]\nif(bname .indexOf(\"万相之王\") === -1) continue\narr.push(item)\n}\narr",
+            "name": "text\n@js:\nresult.split(\"/\")[0]",
+            "author": "span@text\n@js:\nresult.split(\"/\")[1]",
+            "bookUrl": "@href"
+        }
     }
 ]
