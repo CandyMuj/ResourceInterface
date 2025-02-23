@@ -1,4 +1,13 @@
+> <span style="color: red; font-weight: bold;">注意！注意！注意！</span>
+>
+> <span style="color: red; font-weight: bold;">原域名 `lan2wan.top` 将于 `2025-07-06` 到期，到期后将不再续费，使用此域名的地址将在到期后失效！</span>
+>
+> <span style="color: red; font-weight: bold;">新地址已在下方写明，请及时更换为新的源地址！</span>
+
+
+
 # 资源接口(接口地址见底部)
+
 **各类资源软件所需的接口，一些资源接口，及一些接口收集** 
 
 **目前已经有的接口**(点击可跳转)
@@ -10,7 +19,7 @@
 
 > **关于接口地址连通性说明**
 >
-> * 默认提供的地址为 `*.lan2wan.top` 域名的链接
+> * 默认提供的地址为 `*.ccsource.dynv6.net` 域名的链接
 >   * 优点：短、看着舒服、使用方便
 >   * 缺点：由于地区运营商限制，**部分地区可能无法访问**
 > * 若出现无法访问，可先尝试使用给出的备用地址，若依然无法访问，则请参阅 **[备用地址](#备用地址)**
@@ -47,12 +56,6 @@
 </div>
 
 
-## 加入QQ频道
-
-> 直接点击链接即可 [https://pd.qq.com/s/7syeeejxz](https://pd.qq.com/s/7syeeejxz)
->
-> 可能极少数的QQ会提示没有权限
-
 ## 加入Telegram
 
 > 直接点击链接即可 [https://t.me/CandyMujSource](https://t.me/CandyMujSource)
@@ -63,39 +66,43 @@
 
 ## 配置地址
 
-* 配置地址(含极少福利资源)： https://tv.lan2wan.top/candymuj.json
-  * 备用：https://tv1.lan2wan.top/candymuj.json
-  * 备用：https://gitdl.cn/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.json
-  * 备用：https://gitdl.cn/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.json
+* 配置地址(含极少福利资源)： https://tv.ccsource.dynv6.net/candymuj.json
+  * 备用：https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.json
   * 备用：https://cdn.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj.json
   * 备用：https://gcore.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj.json
   
-* 配置地址1(无福利资源)：https://tv.lan2wan.top/candymuj1.json
-  * 备用：https://tv1.lan2wan.top/candymuj1.json
-  * 备用：https://gitdl.cn/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj1.json
-  * 备用：https://gitdl.cn/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj1.json
+* 配置地址1(无福利资源)：https://tv.ccsource.dynv6.net/candymuj1.json
+  * 备用：https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj1.json
   * 备用：https://cdn.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj1.json
   * 备用：https://gcore.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj1.json
+
+## 高级配置
+
+* 由于部分配置（例如Cookie之类的），若全都由我提供是不可能的，且配置直接由我写死也不好，故开放了一种方式**可以自己在本地自定义部分敏感配置**
+* 这部分配置，可根据需要配置，若不需要可将配置直接移除即可，但需保证为标准Json格式
+* 默认会在本机 `/Android/CandyMuj/TVBox/conf` 下自动生成一个名为 `conf.json` 的配置，若没有则自行在目录下新建一个
+* 具体配置项请参考 [conf.template.json](TVBox/conf/conf.template.json)
+* 配置会随着后期开发有增减，请关注 [conf.template.json](TVBox/conf/conf.template.json) 文件的最新内容，关注其变动
 
 
 ## 推荐软件下载
 
 ### Android手机
 
-* v7a(FongMi 32位): https://dwz.lan2wan.top/E0Naou7t70
-* v8a(FongMi 64位): https://dwz.lan2wan.top/7zyrYy00qb
+* v7a(FongMi 32位): https://dwzz.cc/E0Naou7t70
+* v8a(FongMi 64位): https://dwzz.cc/7zyrYy00qb
 
 ### TV
 
-* (推荐 takagen99): https://dwz.lan2wan.top/OqMo4eWTVR
-* (次选1 FongMi 32位): https://dwz.lan2wan.top/tYoJlUGeWs
-* (次选2 FongMi 海信专版): https://dwz.lan2wan.top/WDSHvcRwde
-* (次选3 q版): https://dwz.lan2wan.top/X31gtg8yKP
-* (次选4 皮皮虾 t版): https://dwz.lan2wan.top/GOZEdJom2v
-* (次选5 皮皮虾 q版): https://dwz.lan2wan.top/YyJzsqSh1r
-* (次选6 FongMi 电视版-X5离线): https://dwz.lan2wan.top/yxEFDm1f8X
-* (新设备 FongMi 64位): https://dwz.lan2wan.top/36QYthy3ay
-* (老设备 FongMi 4.x): https://dwz.lan2wan.top/adW7sSju1f
+* (推荐 takagen99): https://dwzz.cc/OqMo4eWTVR
+* (次选1 FongMi 32位): https://dwzz.cc/tYoJlUGeWs
+* (次选2 FongMi 海信专版): https://dwzz.cc/WDSHvcRwde
+* (次选3 q版): https://dwzz.cc/X31gtg8yKP
+* (次选4 皮皮虾 t版): https://dwzz.cc/GOZEdJom2v
+* (次选5 皮皮虾 q版): https://dwzz.cc/YyJzsqSh1r
+* (次选6 FongMi 电视版-X5离线): https://dwzz.cc/yxEFDm1f8X
+* (新设备 FongMi 64位): https://dwzz.cc/36QYthy3ay
+* (老设备 FongMi 4.x): https://dwzz.cc/adW7sSju1f
 
 ---
 
@@ -103,9 +110,8 @@
 
 ## 配置地址
 
-* 书源配置：https://yd.lan2wan.top/candymuj.json
-  * 备用：https://gitdl.cn/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/Legado/candymuj.json
-  * 备用：https://gitdl.cn/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/Legado/candymuj.json
+* 书源配置：https://yd.ccsource.dynv6.net/candymuj.json
+  * 备用：https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/Legado/candymuj.json
   * 备用：https://cdn.jsdelivr.net/gh/CandyMuj/ResourceInterface/Legado/candymuj.json
   * 备用：https://gcore.jsdelivr.net/gh/CandyMuj/ResourceInterface/Legado/candymuj.json
 

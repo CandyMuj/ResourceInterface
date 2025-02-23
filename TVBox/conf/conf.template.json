@@ -1,0 +1,12 @@
+{
+    "ali": "阿里云盘Token",
+    "bili": {
+        "bili_cookie": "BiliBili Cookie"
+    },
+    "alist": {
+        "drives": [
+            {"name":"定义名称","server":"http://127.0.0.1:5244","login":{"username":"用户名","password":"密码"}},
+            {"name":"指定路径","server":"http://127.0.0.1:5244#/电视剧","login":{"username":"用户名","password":"密码"}}
+        ]
+    }
+}
