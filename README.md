@@ -19,7 +19,7 @@
 
 > **关于接口地址连通性说明**
 >
-> * 默认提供的地址为 `*.ccsource.dynv6.net` 域名的链接
+> * 默认提供的地址为 `*.520993.xyz` 域名的链接
 >   * 优点：短、看着舒服、使用方便
 >   * 缺点：由于地区运营商限制，**部分地区可能无法访问**
 > * 若出现无法访问，可先尝试使用给出的备用地址，若依然无法访问，则请参阅 **[备用地址](#备用地址)**
@@ -66,12 +66,12 @@
 
 ## 配置地址
 
-* 配置地址(含极少福利资源)： https://tv.ccsource.dynv6.net/candymuj.json
+* 配置地址(含极少福利资源)： https://tv.520993.xyz/candymuj.json
   * 备用：https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.json
   * 备用：https://cdn.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj.json
   * 备用：https://gcore.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj.json
   
-* 配置地址1(无福利资源)：https://tv.ccsource.dynv6.net/candymuj1.json
+* 配置地址1(无福利资源)：https://tv.520993.xyz/candymuj1.json
   * 备用：https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj1.json
   * 备用：https://cdn.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj1.json
   * 备用：https://gcore.jsdelivr.net/gh/CandyMuj/ResourceInterface/TVBox/candymuj1.json
@@ -110,7 +110,7 @@
 
 ## 配置地址
 
-* 书源配置：https://yd.ccsource.dynv6.net/candymuj.json
+* 书源配置：https://yd.520993.xyz/candymuj.json
   * 备用：https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/Legado/candymuj.json
   * 备用：https://cdn.jsdelivr.net/gh/CandyMuj/ResourceInterface/Legado/candymuj.json
   * 备用：https://gcore.jsdelivr.net/gh/CandyMuj/ResourceInterface/Legado/candymuj.json
