@@ -1,8 +1,6 @@
 > <span style="color: red; font-weight: bold;">注意！注意！注意！</span>
 >
-> <span style="color: red; font-weight: bold;">原域名 `lan2wan.top` 将于 `2025-07-06` 到期，到期后将不再续费，使用此域名的地址将在到期后失效！</span>
->
-> <span style="color: red; font-weight: bold;">新地址已在下方写明，请及时更换为新的源地址！</span>
+> <span style="color: red; font-weight: bold;">借助于AI大时代，即将回归！（年前应该会更新一波）</span>
 
 
 
@@ -62,7 +60,9 @@
 
 ---
 
-# TVBox
+# TVBox（影视）
+
+> **本仓暂时不考虑IOS，软件也没有列出IOS的，因为我不用苹果！！！故关于苹果的软件和问题一概不回复！！！**
 
 ## 配置地址
 
@@ -84,29 +84,70 @@
 * 具体配置项请参考 [conf.template.json](TVBox/conf/conf.template.json)
 * 配置会随着后期开发有增减，请关注 [conf.template.json](TVBox/conf/conf.template.json) 文件的最新内容，关注其变动
 
-
 ## 推荐软件下载
 
-### Android手机
+<details>
+  <summary>目前主流的影视壳子系列</summary>
 
-* v7a(FongMi 32位): https://dwzz.cc/E0Naou7t70
-* v8a(FongMi 64位): https://dwzz.cc/7zyrYy00qb
+**A. TVBoxOSC 系（老牌，跟 FongMi 不同源）**
 
-### TV
+| 项目                                      | 状态                                                         |
+| ----------------------------------------- | ------------------------------------------------------------ |
+| `q215613905/TVBoxOS`                      | 原 TVBoxOSC，2999★，**仍在维护**，最后提交 2026-09-14，现在由**于俊/jun** 维护；分支 `main`、`dev`、`oldTv`、`file_transfer` |
+| `takagen99/Box`                           | 3083★，TVBoxOSC 的 UI 美化版，分支 `main`、`dev`、`dark`，最后提交 **2026-02-27**（贡献者 Rycbar123、juejijianghuaa） |
+| 影视仓、可视TV Max、月光宝盒 Box/Max/Plus | 闭源魔改，同架构不同壳                                       |
 
-* (推荐 takagen99): https://dwzz.cc/OqMo4eWTVR
-* (次选1 FongMi 32位): https://dwzz.cc/tYoJlUGeWs
-* (次选2 FongMi 海信专版): https://dwzz.cc/WDSHvcRwde
-* (次选3 q版): https://dwzz.cc/X31gtg8yKP
-* (次选4 皮皮虾 t版): https://dwzz.cc/GOZEdJom2v
-* (次选5 皮皮虾 q版): https://dwzz.cc/YyJzsqSh1r
-* (次选6 FongMi 电视版-X5离线): https://dwzz.cc/yxEFDm1f8X
-* (新设备 FongMi 64位): https://dwzz.cc/36QYthy3ay
-* (老设备 FongMi 4.x): https://dwzz.cc/adW7sSju1f
+**B. FongMi（蜂蜜）系——你要的重点**
+
+| 项目                                                         | 说明                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `FongMi/TV`                                                  | 主源码，10286★，GPL-3.0，单分支 `fongmi`，文档站 `fongmi.github.io/TV` |
+| `FongMi/Release`                                             | APK 发布仓库，7490★，只剩 `fongmi` 分支                      |
+| `FongMi/CatVodSpider`                                        | 爬虫 jar/js 示例仓库，943★，2026-11-02 仍在更新              |
+| `okcaptain/TV`                                               | 81★，OK 自己的源码 fork（2024-01-12 建，2024-10-01 停）      |
+| `okcaptain/CatVodOpen`、`okcaptain/CatPawOpen`               | OK 在爬虫引擎侧的延续项目，他现在的精力主要在这里            |
+| `lystv/fmapp`                                                | 278★，OK 侧的发布镜像，分支有 `main`、`ok`、`app`、`img`、`pg*`，`ok` 分支末尾 3.6.2 / 3.9.3-pro（2026-01 至 02） |
+| `kknifer7/TV-K`                                              | 139★，2025-12 起的移动端 fork，配 FreeBox 用                 |
+| `haha459862/BearTV`、`jadehh/FongMiTV`、`mokudong/FongMiTV`、`raptorz/TVBox-mobile`、`15840213978a/fongmi`、`linfern-mou/fongmi` | 小规模个人 fork，同源改包                                    |
+| 蜂蜜下游魔改（宝盒、西夏、开心、天微、木鱼、猫TV、春盈天下、三林、欧歌、星辰等） | 基本全是拿 FM 的 APK 换皮，不公开源码                        |
+
+**C. CatVod 系**：`CatVodOpen`（okcaptain 维护的开放版）、`CatPawOpen`（2025-01 起接续 CatVodOpen）。
+
+</details>
+
+### 首推（FongMi影视系列）
+
+> 个人开发及验证，基于此，不保证其他壳子的兼容性，如果其他壳子存在Bug，可以反馈，但不一定会处理（视问题复杂度以及修复的价值高低考量）
+>
+> 注意：由于蓝奏及GitHub的单文件上传限制，部分安装包通过网盘下载
+
+#### 手机版（Android）
+
+* [FongMi影视](https://dwzz.cc/video_mobile_fm)
+* [OK影视](https://dwzz.cc/video_mobile_ok)
+* [OK影视Pro](https://dwzz.cc/video_mobile_ok_pro)
+
+#### TV电视版（Android）
+
+- [FongMi影视](https://dwzz.cc/video_tv_fm)
+- [OK影视](https://dwzz.cc/video_tv_ok)
+- [OK影视Pro](https://dwzz.cc/video_tv_ok_pro)
+
+### 次选（更多影视壳子）
+
+更多电视盒子应用可前往 [TVAPP](https://github.com/youhunwl/TVAPP) 第三方聚合仓库下载（众包整理，收集的十分全，下方列出常用的一些壳子，可直接点击跳转）
+
+- [FongMi影视](https://github.com/youhunwl/TVAPP/tree/main/影视/FongMi影视)
+- [OK影视(含PRO)](https://github.com/youhunwl/TVAPP/tree/main/影视/OK影视) Pro版说明如下
+  - 在基础版上额外加入 VLC 播放内核 + 云备份/跨端推送 + 扫码授权 + 代码加固。
+  - 它的版本号高出一截，原因只是人为把版本号段抬高了一档，跟功能多少无关。
+- [TVBox(takagen99、q215613905)](https://github.com/youhunwl/TVAPP/tree/main/TVBox)
+
+
 
 ---
 
-# Legado 3.x<span id="Legado-3.x"></span>
+# Legado 3.x（阅读）<span id="Legado-3.x"></span>
 
 ## 配置地址
 
