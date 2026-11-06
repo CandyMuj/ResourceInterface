@@ -10,7 +10,7 @@
 
 **目前已经有的接口**(点击可跳转)
 
-* [TVBox接口](#TVBox)
+* [TVBox接口](#TVBox（影视）)
 * [Legado阅读3.x书源](#Legado-3.x)
 
 ---
@@ -125,23 +125,23 @@
 
 * [FongMi影视](https://dwzz.cc/video_mobile_fm)
 * [OK影视](https://dwzz.cc/video_mobile_ok)
-* [OK影视Pro](https://dwzz.cc/video_mobile_ok_pro)
+* [OK影视Pro](https://dwzz.cc/video_mobile_ok_pro) Pro版说明如下
+  - 在基础版上额外加入 VLC 播放内核 + 云备份/跨端推送 + 扫码授权 + 代码加固。
+  - 它的版本号高出一截，原因只是人为把版本号段抬高了一档，跟功能多少无关。
 
 #### TV电视版（Android）
 
 - [FongMi影视](https://dwzz.cc/video_tv_fm)
 - [OK影视](https://dwzz.cc/video_tv_ok)
-- [OK影视Pro](https://dwzz.cc/video_tv_ok_pro)
+- [OK影视Pro](https://dwzz.cc/video_tv_ok_pro) Pro版说明如下
+  - 在基础版上额外加入 VLC 播放内核 + 云备份/跨端推送 + 扫码授权 + 代码加固。
+  - 它的版本号高出一截，原因只是人为把版本号段抬高了一档，跟功能多少无关。
 
 ### 次选（更多影视壳子）
 
-更多电视盒子应用可前往 [TVAPP](https://github.com/youhunwl/TVAPP) 第三方聚合仓库下载（众包整理，收集的十分全，下方列出常用的一些壳子，可直接点击跳转）
+更多电视盒子应用可前往 [TVAPP](https://github.com/youhunwl/TVAPP) 第三方聚合仓库下载（众包整理，收集的十分全）
 
-- [FongMi影视](https://github.com/youhunwl/TVAPP/tree/main/影视/FongMi影视)
-- [OK影视(含PRO)](https://github.com/youhunwl/TVAPP/tree/main/影视/OK影视) Pro版说明如下
-  - 在基础版上额外加入 VLC 播放内核 + 云备份/跨端推送 + 扫码授权 + 代码加固。
-  - 它的版本号高出一截，原因只是人为把版本号段抬高了一档，跟功能多少无关。
-- [TVBox(takagen99、q215613905)](https://github.com/youhunwl/TVAPP/tree/main/TVBox)
+**注意：除上述推荐的版本外，其他壳子不保证对我的源的兼容性，但可以折腾玩玩。另外优先推荐使用开源的。最好还是使用上方推荐的。** 
 
 
 
