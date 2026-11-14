@@ -10,7 +10,7 @@
 
 **目前已经有的接口**(点击可跳转)
 
-* [TVBox接口](#TVBox（影视）)
+* [TVBox接口](#TVBox)
 * [Legado阅读3.x书源](#Legado-3.x)
 
 ---
@@ -49,6 +49,8 @@
 </div>
 
 ---
+
+<a id="TVBox"></a>
 
 # TVBox（影视）
 
@@ -105,39 +107,90 @@
 
 </details>
 
-### 首推（FongMi影视系列）
+### 首选（FongMi影视系列）
 
 > 个人开发及验证，基于此，不保证其他壳子的兼容性，如果其他壳子存在Bug，可以反馈，但不一定会处理（视问题复杂度以及修复的价值高低考量）
 >
 > 注意：由于蓝奏及GitHub的单文件上传限制，部分安装包通过网盘下载
 
+<details>
+  <summary>关于FongMi和OK相关的一些说明</summary>
+
+- FongMi影视移除java单独版本的说明：2025.04.03 v3.4.5版开始移除 java 单独版本，目前安装 java 的版本会自动升级成 py 的版本
+
+  后续版本只区分v7a和v8a： v7a兼容新旧设备，大多数设备都可以使用特点：支持更多特殊协议直播源 v8a只能在新设备上安装特点：适配新硬件，在新设备上可以最大限度发挥硬件性能，运行会更高效
+
+- FongMi影视版本说明：
+
+  - mobile = 手机版
+  - leanback = 电视版
+  - java = jar + js 爬虫
+  - python = jar + js + py 爬虫
+  - arm64_v8a = 64 位元
+  - armeabi_v7a = 32 位元
+  - dev = 內测版
+  - kitkat = 4.x 版
+  - release = 正式版
+
+- OK影视的时间线
+
+  ```
+  2022-06-22  FongMi/TV 建仓（源码，GPL-3.0）
+  2023-08-11  FongMi/Release 建仓，2.0.4  →「影视」
+  2024-01-12  2.2.0：APK 改为提交进分支目录 apk/release
+  2024-01-21  2.2.3：最后一个 FongMi 时代的包，之后提交者变 okjack
+  2024-01-28  2.2.4 → 品牌变「OK影视」，OK 线开始
+  2024-05-13  改为 CI 机器人推包（作者 action@github.com）
+  2024-10-01  OK 源码在 TV 仓 okjack 分支冻结（最后一版 2.5.8）
+  2025-04-05  FongMi 回归，3.4.9（版本号故意越过 OK 的 2.8.3）→「影视」
+  2025-06-25  OK 最后一版源码级版本 2.9.6（此后只有私有构建）
+  2026-01-21  OK影视Pro 3.9.3
+  2026-01-22  OK 线最后产物 3.6.2 —— OK 从此停更
+  2026-09-29  Release 仓 Clean：分支里的 apk/ 全删，tag 全部重建
+  2026-10-08  module release
+  2026-11-01  FongMi 5.8.7（当前最新）
+  ... FongMi 版本持续维护更新中
+  ```
+
+
+  - **两条线是同一个包名**（都 `com.fongmi.android.tv`，同一张 `CN=FongMi` 证书），所以 OK 版和 FM 版互为覆盖升级路径，同一个手机只能留一个。
+  2. **OK 从来没有公开源码**；公开的只有 2024-10-01 之前那批（现在在你 fork 的 `okjack` 分支里），2.5.9 之后的 100 多个版本号（→3.6.2/3.9.3）都是在私有环境编的，仓库里只有 APK。
+
+- OK影视Pro版的说明
+
+
+  - 并非什么会员版，是在同一APP上额外加入了部分功能，差异如下：
+  - 在基础版上额外加入 VLC 播放内核 + 云备份/跨端推送 + 扫码授权 + 代码加固。
+  - 它的版本号高出一截，原因只是人为把版本号段抬高了一档（号段有意错开一档），跟功能多少无关。两版撞号时一眼能分清，也方便更新检查（apk/release/ 用 mobile.json/leanback.json 报版本，apk/pro/ 只放一个 v.txt 写 3.9.3 + changelog）。
+
+
+</details>
+
 #### 手机版（Android）
 
 * [FongMi影视](https://dwzz.cc/video_mobile_fm)
 * [OK影视](https://dwzz.cc/video_mobile_ok)
-* [OK影视Pro](https://dwzz.cc/video_mobile_ok_pro) Pro版说明如下
-  - 在基础版上额外加入 VLC 播放内核 + 云备份/跨端推送 + 扫码授权 + 代码加固。
-  - 它的版本号高出一截，原因只是人为把版本号段抬高了一档，跟功能多少无关。
+* [OK影视Pro](https://dwzz.cc/video_mobile_ok_pro)
 
 #### TV电视版（Android）
 
 - [FongMi影视](https://dwzz.cc/video_tv_fm)
 - [OK影视](https://dwzz.cc/video_tv_ok)
-- [OK影视Pro](https://dwzz.cc/video_tv_ok_pro) Pro版说明如下
-  - 在基础版上额外加入 VLC 播放内核 + 云备份/跨端推送 + 扫码授权 + 代码加固。
-  - 它的版本号高出一截，原因只是人为把版本号段抬高了一档，跟功能多少无关。
+- [OK影视Pro](https://dwzz.cc/video_tv_ok_pro)
 
 ### 次选（更多影视壳子）
 
 更多电视盒子应用可前往 [TVAPP](https://github.com/youhunwl/TVAPP) 第三方聚合仓库下载（众包整理，收集的十分全）
 
-**注意：除上述推荐的版本外，其他壳子不保证对我的源的兼容性，但可以折腾玩玩。另外优先推荐使用开源的。最好还是使用上方推荐的。** 
+**注意：除上述推荐的版本外，其他壳子不保证对我的源的兼容性，但可以折腾玩玩。另外优先推荐使用开源的。最后还是推荐优先使用上方首选推荐的。** 
 
 
 
 ---
 
-# Legado 3.x（阅读）<span id="Legado-3.x"></span>
+<a id="Legado-3.x"></a>
+
+# Legado 3.x（阅读）
 
 ## 配置地址
 
@@ -167,7 +220,7 @@
 
 GitHub的原始源地址为：https://raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.json
 
-百度 `GitHub文件加速`，进入加速网站：https://moeyy.cn/gh-proxy
+百度或其他搜索引擎搜索 [GitHub文件加速](https://www.baidu.com/s?wd=GitHub文件加速)，选择并进入一个加速网站：https://moeyy.cn/gh-proxy
 
 得到一个加速地址：https://github.moeyy.xyz/
 
